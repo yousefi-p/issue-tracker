@@ -1,0 +1,44 @@
+.formControl {
+    font-family: IranSans, sans-serif;
+}
+
+.formControl form {
+    font-family: IranSans, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-content: center;
+}
+.formControl form > label {
+    font-family: IranSans, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.formControl form > input > text:focus {
+    font-family: IranSans, sans-serif;
+    background-color: #393742;
+}
+
+.formControl form > button {
+    font-family: IranSans, sans-serif;
+    font-weight: 600;
+    background-color: #49a07f;
+    margin-top: 15px;
+}
+
+.divTextArea {
+    font-family: IranSans, sans-serif;
+    min-height: 100px;
+    max-height: 500px;
+}
+.divTextArea > textarea {
+    font-family: IranSans, sans-serif;
+    height: 100%;
+    font-size: 18px;
+
+}
+.divTextArea > textarea:focus {
+    font-family: IranSans, sans-serif;
+    height: 100%;
+    background-color: #393742;
+}
