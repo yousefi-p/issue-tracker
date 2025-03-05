@@ -19,17 +19,7 @@ function NavigationBar() {
         day: 'numeric',
       });
       setCurrentTime(formattedTime);
-      const fetchIpAddress = async () => {
-        try {
-          const response = await fetch(`/api/getip`);
-          const data = await response.json();
-          setIpAddress(data.ip);
-        } catch (error) {
-          console.error('Error fetching IP address:', error);
-        }
-      };
-  
-      fetchIpAddress();
+      
   }, []);
 
   
@@ -38,7 +28,7 @@ function NavigationBar() {
     <div className="container-fluid">
         <div className={"navbar-brand "+ mystyles.userInfo}>
             <img src={Untitled.src} alt="User" />
-            <span className="text-white">اهورا عطاران{ipAddress.valueOf()}</span>
+            <span className="text-white">اهورا عطاران</span>
         </div>
 
 
